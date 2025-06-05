@@ -2,7 +2,7 @@ const Hero = () => {
   return (
     <footer className="flex flex-col justify-between items-center bg-blue-600 text-white">
       <div>
-        <h2 className="font-bold mb-[40px] mt-[10px] text-lg tracking-wider">
+        <h2 className="font-bold mb-[40px] mt-[10px] text-lg tracking-wider mt-[40px]">
           Prateek
         </h2>
       </div>
@@ -61,7 +61,7 @@ const Hero = () => {
           </svg>
         </a>
       </div>
-      <p className="mb-[10px] tracking-wider">© copyright all right reserved</p>
+      <p className="mb-[40px] tracking-wider">© copyright all right reserved</p>
     </footer>
   );
 };

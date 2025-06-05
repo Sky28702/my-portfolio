@@ -11,7 +11,7 @@ const Hero = () => {
             alt="my projects"
             className="h-[200px] w-[300px] rounded-[5px]"
           ></img>
-          <h5 className="font-semibold mt-1 mb-2">Project 1</h5>
+          <h5 className="font-semi  bold mt-1 mb-2">Project 1</h5>
           <p className="text-slate-600">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit
           </p>
@@ -19,7 +19,7 @@ const Hero = () => {
 
         <div>
           <img
-            src="/Project.png"
+            src="/project2.png"
             alt="my projects"
             className="h-[200px] w-[300px] rounded-[5px]"
           ></img>
@@ -31,7 +31,7 @@ const Hero = () => {
 
         <div>
           <img
-            src="/Project.png"
+            src="/project3.png"
             alt="my projects"
             className="h-[200px] w-[300px] rounded-[5px]"
           ></img>
