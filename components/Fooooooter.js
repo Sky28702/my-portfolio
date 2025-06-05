@@ -1,4 +1,4 @@
-const Hero = () => {
+const Footer = () => {
   return (
     <footer className="flex flex-col justify-between items-center bg-blue-600 text-white">
       <div>
@@ -66,4 +66,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default Footer;

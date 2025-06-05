@@ -1,4 +1,4 @@
-const Hero = () => {
+const Contact = () => {
   return (
     <section className="mb-[80px]" id="Contact">
       <h2 className="font-semibold text-[30px] text-blue-600 text-center mb-[20px]">
@@ -39,4 +39,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default Contact;

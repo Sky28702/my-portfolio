@@ -5,6 +5,7 @@ import Skills from "@/components/Skills";
 import Project from "@/components/Project";
 import Contactus from "@/components/Contactus";
 import Fooooooter from "@/components/Fooooooter";
+
 const Home = () => {
   return (
     <div className=" max-w-[1024px]">
