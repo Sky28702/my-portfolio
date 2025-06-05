@@ -1,7 +1,7 @@
 const Hero = () => {
   return (
     <section className="mb-[80px]" id="Contact">
-      <h2 className="font-bold text-[36px] text-blue-600 text-center mb-[20px]">
+      <h2 className="font-semibold text-[30px] text-blue-600 text-center mb-[20px]">
         <u> Contact </u>
       </h2>
       <form className="flex flex-col justify-between items-center">
@@ -11,7 +11,7 @@ const Hero = () => {
           id="name"
           placeholder="Name"
           required
-          className="mb-8 border border-solid border-slate-200 rounded-[4px] py-2 px-2 w-60"
+          className="text-sm mb-8 border border-solid border-slate-200 rounded-[4px] py-2 px-2 w-60"
         ></input>
 
         <input
@@ -20,11 +20,11 @@ const Hero = () => {
           id="email"
           placeholder="Email"
           required
-          className="mb-8 border border-solid border-slate-200 rounded-[4px] py-2 px-2 w-60"
+          className="text-sm mb-8 border border-solid border-slate-200 rounded-[4px] py-2 px-2 w-60"
         ></input>
 
         <textarea
-          className="h-36 w-60 mb-8 border border-solid border-slate-200 rounded-[4px] py-2 px-2"
+          className="text-sm h-36 w-60 mb-8 border border-solid border-slate-200 rounded-[4px] py-2 px-2"
           placeholder="Type your message..."
         ></textarea>
 

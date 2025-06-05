@@ -1,7 +1,7 @@
 const Hero = () => {
   return (
     <section className="mb-[80px]" id="About">
-      <h2 className="font-bold text-[36px] text-blue-600 text-center mb-[20px]">
+      <h2 className="font-semibold text-[30px] text-blue-600 text-center mb-[20px]">
         <u> About </u>
       </h2>
       <div className="flex flex-row justify-between items-center">
@@ -11,7 +11,7 @@ const Hero = () => {
           className="h-[300px] w-[270px] rounded-[5px]"
         ></img>
         <div className="leading-[26px] pl-[150px]">
-          <h3 className="font-extrabold text-[20px] mb-[20px]">I'am Prateek</h3>
+          <h3 className="font-bold text-[20px] mb-[20px]">I'am Prateek</h3>
           <p className="max-w-[96%] text-slate-600">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam ad
             veniam , sequi expedita doloribus molestias eius, tempora veritatis

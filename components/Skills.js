@@ -1,7 +1,7 @@
 const Hero = () => {
   return (
     <section className="mb-[80px]" id="Skills">
-      <h2 className="font-bold text-[36px] text-blue-600 text-center mb-[20px]">
+      <h2 className="font-semibold text-[30px] text-blue-600 text-center mb-[20px]">
         <u>Skills</u>
       </h2>
       <div className="flex items-center justify-around flex-row-reverse">
@@ -11,7 +11,7 @@ const Hero = () => {
           className="h-50 w-90 rounded-[5px]"
         ></img>
         <div>
-          <h3 className="font-extrabold text-[20px] mb-[20px]">
+          <h3 className="font-bold text-[20px] mb-[20px]">
             Proffesional Skills
           </h3>
 

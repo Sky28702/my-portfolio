@@ -1,8 +1,8 @@
 const Hero = () => {
   return (
-    <footer className="flex flex-col justify-between items-center bg-indigo-950 text-white">
+    <footer className="flex flex-col justify-between items-center bg-blue-600 text-white">
       <div>
-        <h2 className="font-black mb-[40px] mt-[10px]">Prateek</h2>
+        <h2 className="font-bold mb-[40px] mt-[10px] text-lg">Prateek</h2>
       </div>
 
       <div className="mb-[40px]">
