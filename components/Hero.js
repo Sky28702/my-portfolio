@@ -1,11 +1,7 @@
 const Hero = () => {
   return (
     <section className="flex flex-row-reverse justify-between items-center mt-[106px] mb-[210px]">
-      <img
-        src="https://raw.githubusercontent.com/Sky28702/my-portfolio/refs/heads/main/hero.png"
-        alt="dev"
-        className="h-[300px] w-[400px]"
-      ></img>
+      <img src="/hero.png" alt="dev" className="h-[300px] w-[400px]"></img>
       <div>
         <h1 className="font-bold text-[50px] ">
           Hi,<br></br>I'am <span className="text-blue-600">Prateek</span>
