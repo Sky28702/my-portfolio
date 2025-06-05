@@ -1,12 +1,13 @@
 @import "tailwindcss";
 
 :root {
+  --font-rubik: "Rubik", sans-serif;
   --background: #ffffff;
   --foreground: #171717;
 }
 
 body {
-  font-family: "Rubik", sans-serif;
+  font-family: var(--font-rubik);
 
   max-width: 1024px;
   margin: 0 auto;
