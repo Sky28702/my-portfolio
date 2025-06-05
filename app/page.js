@@ -4,6 +4,7 @@ import About from "@/components/About";
 import Skills from "@/components/Skills";
 import Project from "@/components/Project";
 import Contactus from "@/components/Contactus";
+import Fooooooter from "@/components/Fooooooter";
 const Home = () => {
   return (
     <div className="mt-10 max-w-[1024px]">
@@ -18,6 +19,8 @@ const Home = () => {
       <Project />
 
       <Contactus />
+
+      <Fooooooter />
     </div>
   );
 };
