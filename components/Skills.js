@@ -20,7 +20,7 @@ const Hero = () => {
             quidem voluptatum minus fuga a fugit, nobis eaque, temporibus
             cupiditate officiis optio voluptates.
           </p>
-          <div className=" bg-white text-[18px] border border-solid border-white mt-4 shadow-[0_4px_25px_rgba(14,36,49,0.15)]  max-w-[400px] py-[8px] px-[16px] flex items-center">
+          <div className=" rounded-[5px] bg-white text-[18px] border border-solid border-white mt-4 shadow-[0_4px_25px_rgba(14,36,49,0.15)]  max-w-[400px] py-[8px] px-[16px] flex items-center">
             <span className="text-orange-600 text-[24px]">
               <i class="fa-brands fa-html5"></i>
             </span>
@@ -28,7 +28,7 @@ const Hero = () => {
             <span className="pl-[242px]"> 95%</span>
           </div>
 
-          <div className=" bg-white text-[18px] border border-solid border-white mt-4 shadow-[0_4px_25px_rgba(14,36,49,0.15)]  max-w-[400px] py-[8px] px-[16px] flex items-center">
+          <div className=" rounded-[5px] bg-white text-[18px] border border-solid border-white mt-4 shadow-[0_4px_25px_rgba(14,36,49,0.15)]  max-w-[400px] py-[8px] px-[16px] flex items-center">
             <span className="text-blue-600 text-[24px]">
               <i class="fa-brands fa-css3-alt"></i>
             </span>
@@ -36,7 +36,7 @@ const Hero = () => {
             <span className="pl-[254px]"> 36%</span>
           </div>
 
-          <div className=" bg-white text-[18px] border border-solid border-white mt-4 shadow-[0_4px_25px_rgba(14,36,49,0.15)]  max-w-[400px] py-[8px] px-[16px] flex items-center">
+          <div className=" rounded-[5px] bg-white text-[18px] border border-solid border-white mt-4 shadow-[0_4px_25px_rgba(14,36,49,0.15)]  max-w-[400px] py-[8px] px-[16px] flex items-center">
             <span className="text-yellow-300 text-[24px]">
               <i class="fa-brands fa-square-js"></i>
             </span>

@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Skills from "@/components/Skills";
 import Project from "@/components/Project";
+import Contactus from "@/components/Contactus";
 const Home = () => {
   return (
     <div className="mt-10 max-w-[1024px]">
@@ -15,6 +16,8 @@ const Home = () => {
       <Skills />
 
       <Project />
+
+      <Contactus />
     </div>
   );
 };
