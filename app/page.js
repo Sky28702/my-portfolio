@@ -7,7 +7,7 @@ import Contactus from "@/components/Contactus";
 import Fooooooter from "@/components/Fooooooter";
 const Home = () => {
   return (
-    <div className="mt-10 max-w-[1024px]">
+    <div className=" max-w-[1024px]">
       <Nav />
 
       <Hero />

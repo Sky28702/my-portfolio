@@ -2,7 +2,7 @@ const Hero = () => {
   return (
     <footer className="flex flex-col justify-between items-center bg-indigo-950 text-white">
       <div>
-        <h2 className="font-black mb-[40px]">Prateek</h2>
+        <h2 className="font-black mb-[40px] mt-[10px]">Prateek</h2>
       </div>
 
       <div className="mb-[40px]">

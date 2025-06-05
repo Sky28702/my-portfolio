@@ -1,6 +1,6 @@
 const Hero = () => {
   return (
-    <section className="mb-[80px]">
+    <section className="mb-[80px]" id="Contact">
       <h2 className="font-bold text-[36px] text-blue-600 text-center mb-[20px]">
         <u> Contact </u>
       </h2>

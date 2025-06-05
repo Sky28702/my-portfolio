@@ -2,7 +2,7 @@ const Nav = () => {
   return (
     <header
       className="flex flex-row justify-between items-center font-bold text-lg 
-    border-b-2 mb-10 pb-[36px] border-slate-100 "
+    border-b-2 mb-10 pb-[36px] border-slate-100 mt-10 "
     >
       <h1 className="text-blue-600 font-extrabold "> Prateek </h1>
       <div className="[&_a]:hover:text-blue-600">

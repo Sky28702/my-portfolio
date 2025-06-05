@@ -1,6 +1,9 @@
 const Hero = () => {
   return (
-    <section className="flex flex-row-reverse justify-between items-center mt-[106px] mb-[210px]">
+    <section
+      className="flex flex-row-reverse justify-between items-center mt-[106px] mb-[210px]"
+      id="Hero"
+    >
       <img src="/hero.png" alt="dev" className="h-[300px] w-[400px]"></img>
       <div>
         <h1 className="font-bold text-[50px] ">
