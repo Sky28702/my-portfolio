@@ -1,6 +1,6 @@
 const Hero = () => {
   return (
-    <section className="mb-100px">
+    <section className="mb-[80px]">
       <h2 className="font-bold text-[36px] text-blue-600 text-center mb-[20px]">
         <u>Skills</u>
       </h2>
@@ -21,7 +21,7 @@ const Hero = () => {
             cupiditate officiis optio voluptates.
           </p>
           <div className=" bg-white text-[18px] border border-solid border-white mt-4 shadow-[0_4px_25px_rgba(14,36,49,0.15)]  max-w-[400px] py-[8px] px-[16px] flex items-center">
-            <span className="text-blue-600 text-[24px]">
+            <span className="text-orange-600 text-[24px]">
               <i class="fa-brands fa-html5"></i>
             </span>
             <span className="pl-[12px]"> HTML5 </span>
@@ -37,7 +37,7 @@ const Hero = () => {
           </div>
 
           <div className=" bg-white text-[18px] border border-solid border-white mt-4 shadow-[0_4px_25px_rgba(14,36,49,0.15)]  max-w-[400px] py-[8px] px-[16px] flex items-center">
-            <span className="text-blue-600 text-[24px]">
+            <span className="text-yellow-300 text-[24px]">
               <i class="fa-brands fa-square-js"></i>
             </span>
             <span className="pl-[12px]"> JS </span>
