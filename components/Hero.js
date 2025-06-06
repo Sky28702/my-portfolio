@@ -1,12 +1,11 @@
 const Hero = () => {
   return (
     <section
-      className="flex flex-row-reverse justify-between items-center mt-[160px] mb-[210px]"
+      className="md:flex sm:flex md:flex-row sm:flex-col sm:items-left sm:justify-between md:justify-between md:items-center mt-[160px]  mb-[210px]   "
       id="Hero"
     >
-      <img src="/hero.png" alt="dev" className="h-[300px] w-[400px]"></img>
-      <div>
-        <h1 className="font-bold text-[40px] ">
+      <div className=" pl-15">
+        <h1 className="font-bold text-[40px] sm:Pl-950">
           Hi,<br></br>I'am <span className="text-blue-600">Prateek</span>
           <br></br>
           Web Developer
@@ -15,6 +14,12 @@ const Hero = () => {
           <a className="text-[18px]">Contact</a>
         </button>
       </div>
+
+      <img
+        src="/hero.png"
+        alt="dev"
+        className="h-[300px] w-[400px] sm:w-[100px] "
+      ></img>
     </section>
   );
 };

@@ -1,21 +1,21 @@
 const Skills = () => {
   return (
     <section className="mb-[80px]" id="Skills">
-      <h2 className="font-semibold text-[30px] text-blue-600 text-center mb-[20px]">
+      <h2 className="font-semibold text-[30px] text-blue-600  text-center mb-[20px]">
         <u>Skills</u>
       </h2>
-      <div className="flex items-center justify-around flex-row-reverse">
+      <div className="md:flex md:items-center md:justify-around md:flex-row-reverse">
         <img
           src="/skills.png"
           alt="Skills"
-          className="h-50 w-90 rounded-[5px]"
+          className="md:h-50 md:max-w-90 md:rounded-[5px]  ml-5 w-90 h-auto mb-10 "
         ></img>
         <div>
-          <h3 className="font-bold text-[20px] mb-[20px]">
+          <h3 className="font-bold text-[20px] md:mb-[20px] mb-2">
             Proffesional Skills
           </h3>
 
-          <p className="max-w-[70%] text-base text-slate-600">
+          <p className="md:max-w-[70%] text-base text-slate-600">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
             quidem voluptatum minus fuga a fugit, nobis eaque, temporibus
             cupiditate officiis optio voluptates.
@@ -41,7 +41,7 @@ const Skills = () => {
               <i class="fa-brands fa-square-js"></i>
             </span>
             <span className="pl-[12px]"> JS </span>
-            <span className="pl-[280px]"> 06%</span>
+            <span className="pl-[274px]"> 06%</span>
           </div>
         </div>
       </div>

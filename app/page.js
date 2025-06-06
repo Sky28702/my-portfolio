@@ -8,18 +8,18 @@ import Fooooooter from "@/components/Fooooooter";
 
 const Home = () => {
   return (
-    <div className=" max-w-[1024px]">
-      <Nav />
+    <div className=" max-w-[1024px] pl-2">
+      {/*  <Nav /> */}
 
-      <Hero />
+      {/* <Hero /> */}
 
-      <About />
+      {/* <About /> */}
 
-      <Skills />
+      {/* <Skills /> */}
 
-      <Project />
+      {/* <Project /> */}
 
-      <Contactus />
+      {/* <Contactus /> */}
 
       <Fooooooter />
     </div>
