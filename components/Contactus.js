@@ -1,10 +1,10 @@
 const Contact = () => {
   return (
-    <section className="mb-[80px]" id="Contact">
+    <section className="mb-[80px] ml-20" id="Contact">
       <h2 className="font-semibold text-[30px] text-blue-600 text-center mb-[20px]">
         <u> Contact </u>
       </h2>
-      <form className="flex flex-col justify-between items-center">
+      <form className="flex flex-col justify-between items-center md:flex md:flex-col md:justify-between md:items-center  ">
         <input
           type="text"
           name="name"

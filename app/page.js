@@ -9,19 +9,19 @@ import Fooooooter from "@/components/Fooooooter";
 const Home = () => {
   return (
     <div className=" max-w-[1024px] pl-2">
-      {/*  <Nav /> */}
+      <Nav />
 
-      {/* <Hero /> */}
+      <Hero />
 
-      {/* <About /> */}
+      <About />
 
-      {/* <Skills /> */}
+      <Skills />
 
       <Project />
 
-      {/* <Contactus /> */}
+      <Contactus />
 
-      {/* <Fooooooter /> */}
+      <Fooooooter />
     </div>
   );
 };

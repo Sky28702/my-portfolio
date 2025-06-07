@@ -1,7 +1,7 @@
 const Hero = () => {
   return (
     <section
-      className="md:flex sm:flex md:flex-row sm:flex-col sm:items-left sm:justify-between md:justify-between md:items-center mt-[160px]  mb-[210px]   "
+      className="md:flex sm:flex ml-9 md:flex-row sm:flex-col sm:items-left sm:justify-between md:justify-between md:items-center mt-[160px]  mb-[210px]   "
       id="Hero"
     >
       <div className=" pl-15">
@@ -18,7 +18,7 @@ const Hero = () => {
       <img
         src="/hero.png"
         alt="dev"
-        className="h-[300px] w-[400px] sm:w-[100px] "
+        className="h-[300px] w-[400px]  w-[100px]  "
       ></img>
     </section>
   );
