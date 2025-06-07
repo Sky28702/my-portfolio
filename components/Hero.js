@@ -1,7 +1,7 @@
 const Hero = () => {
   return (
     <section
-      className="md:flex sm:flex ml-9 md:flex-row sm:flex-col sm:items-left sm:justify-between md:justify-between md:items-center mt-[160px]  mb-[210px]   "
+      className="md:flex sm:flex ml-9 md:flex-row sm:flex-col sm:items-left sm:justify-between md:justify-between md:items-center mt-[160px]  mb-90 ml-20  "
       id="Hero"
     >
       <div className=" pl-15">

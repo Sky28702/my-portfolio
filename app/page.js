@@ -8,7 +8,7 @@ import Fooooooter from "@/components/Fooooooter";
 
 const Home = () => {
   return (
-    <div className=" max-w-[1024px] pl-2">
+    <div className=" max-w-[1024px] pl-2 relative">
       <Nav />
 
       <Hero />
