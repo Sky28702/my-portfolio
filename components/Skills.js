@@ -25,7 +25,7 @@ const Skills = () => {
               <i class="fa-brands fa-html5"></i>
             </span>
             <span className="pl-[12px]"> HTML5 </span>
-            <span className="pl-[242px]"> 95%</span>
+            <span className="md:pl-[242px] pl-[190px]"> 95%</span>
           </div>
 
           <div className=" rounded-[5px] bg-white text-[18px] border border-solid border-white mt-4 shadow-[0_4px_25px_rgba(14,36,49,0.15)]  max-w-[400px] py-[8px] px-[16px] flex items-center">
@@ -33,7 +33,7 @@ const Skills = () => {
               <i class="fa-brands fa-css3-alt"></i>
             </span>
             <span className="pl-[12px]"> CSS3 </span>
-            <span className="pl-[254px]"> 36%</span>
+            <span className="md:pl-[254px] pl-[200px]"> 36%</span>
           </div>
 
           <div className=" rounded-[5px] bg-white text-[18px] border border-solid border-white mt-4 shadow-[0_4px_25px_rgba(14,36,49,0.15)]  max-w-[400px] py-[8px] px-[16px] flex items-center">
@@ -41,7 +41,7 @@ const Skills = () => {
               <i class="fa-brands fa-square-js"></i>
             </span>
             <span className="pl-[12px]"> JS </span>
-            <span className="pl-[274px]"> 06%</span>
+            <span className="md:pl-[274px] pl-[220px]"> 06%</span>
           </div>
         </div>
       </div>
