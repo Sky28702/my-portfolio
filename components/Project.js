@@ -6,7 +6,7 @@ const Project = () => {
       <h2 className="font-semibold text-[30px] text-blue-600 text-center mb-[20px]">
         <u>Projects</u>
       </h2>
-      <div className="flex flex-column justify-evenly">
+      <div className="md:flex md:flex-row flex-col justify-evenly">
         <ProjectCards
           title="Project Card 1"
           image="project.png"
