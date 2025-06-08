@@ -1,11 +1,23 @@
+"use client";
+import { useState } from "react";
+
 const Nav = () => {
+  const [open, setOpen] = useState(false);
   return (
     <>
-      <div className="transition-all absolute w-[300px] h-full bg-white top-0 left-[-200%] pl-4 shadow-2xl">
+      <div
+        className={` transition-all absolute w-[300px] h-full bg-white top-0 ${
+          open ? "left-0" : "left-[-200%]"
+        } pl-4 shadow-2xl `}
+      >
         <div className="flex flex-row justify-between items-center mb-15 pt-10">
           <h1 className="text-blue-600 font-bold text-xl"> Prateek </h1>
-          <span className="text-xl font-bold text-sky-400 hover:pointer:cursor pr-4">
-            {" "}
+
+          <span
+            onClick={() => setOpen(true)}
+            className="text-xl font-bold text-sky-400 hover:pointer:cursor pr-4 "
+          >
+            {"  "}
             <i class="fa-solid fa-xmark"></i>
           </span>
         </div>
