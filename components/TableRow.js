@@ -1,14 +1,16 @@
-const TableRow = () => {
+const TableRow = (props) => {
   return (
     <>
       <tr>
-        <td>1</td>
-        <td>Prateek Rai</td>
-        <td>Prateek_27</td>
-        <td>prateek462@outlook.com</td>
-        <td>Delhi, India</td>
-        <td>+91 999-9999-999</td>
-        <td>www.google.com</td>
+        <td>{props.id}</td>
+        <td>{props.name}</td>
+        <td>{props.username}</td>
+        <td>{props.email}</td>
+        <td>{props.address}</td>
+        <td>{props.phone}</td>
+        <td>{props.website}</td>
+        <td>{props.company}</td>
+        {/* company and address giving issues  */}
       </tr>
     </>
   );

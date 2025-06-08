@@ -254,8 +254,20 @@ const User = () => {
             <th>Address</th>
             <th>Phone</th>
             <th>Website</th>
+            <th>Company</th>
           </tr>
-          <TableRow />
+          {userData.map((item, index) => (
+            <TableRow
+              id={item.id}
+              name={item.name}
+              username={item.username}
+              email={item.email}
+              address={item.address.city}
+              phone={item.phone}
+              website={item.website}
+              company={item.company.name}
+            />
+          ))}
         </table>
       </section>
     </>
