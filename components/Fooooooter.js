@@ -1,8 +1,8 @@
 const Footer = () => {
   return (
-    <footer className="flex flex-col justify-between items-center bg-blue-600  text-white md:ml-10 ml-25">
+    <footer className="flex flex-col justify-between items-center bg-blue-600  text-white md:ml-10  ">
       <div>
-        <h2 className="font-bold mb-[40px] mt-[10px] text-lg tracking-wider mt-[40px]">
+        <h2 className="font-bold mb-[40px]  text-lg tracking-wider mt-[40px]">
           Prateek
         </h2>
       </div>

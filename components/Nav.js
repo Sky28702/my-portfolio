@@ -1,11 +1,37 @@
 const Nav = () => {
   return (
     <>
-      <div className="absolute w-[300px] h-full bg-sky-700 top-0 left-0"></div>
+      <div className="transition-all absolute w-[300px] h-full bg-white top-0 left-[-200%] pl-4 shadow-2xl">
+        <div className="flex flex-row justify-between items-center mb-15 pt-10">
+          <h1 className="text-blue-600 font-bold text-xl"> Prateek </h1>
+          <span className="text-xl font-bold text-sky-400 hover:pointer:cursor pr-4">
+            {" "}
+            <i class="fa-solid fa-xmark"></i>
+          </span>
+        </div>
+
+        <div className="[&_a]:hover:text-blue-600  flex flex-col text-xl">
+          <a href="#home" className="pb-18 pr-8 text-blue-600 font-medium">
+            <span ClassName=" ">Home</span>
+          </a>
+          <a href="#About" className=" pb-18 pr-8 font-medium">
+            About
+          </a>
+          <a href="#Skills" className=" pb-18 pr-8 font-medium">
+            Skills
+          </a>
+          <a href="#Project" className="pb-18 pr-8 font-medium">
+            Project
+          </a>
+          <a href="#Contact" className="pb-18 pr-8 font-medium">
+            Contact
+          </a>
+        </div>
+      </div>
 
       <header
         className="md:flex md:flex-row md:justify-between md:items-center font-bold text-lg 
-    border-b-2 mb-10 pb-[36px] border-slate-100 mt-10 flex flex-row justify-between items-center"
+    border-b-2 mb-10 pb-[36px] border-slate-100 pt-10 flex flex-row justify-between items-center"
       >
         <h1 className="text-blue-600 font-bold text-xl"> Prateek </h1>
         <div className="[&_a]:hover:text-blue-600 md:flex hidden">

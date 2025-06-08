@@ -2,7 +2,7 @@ import ProjectCards from "@/components/ProjectCard";
 
 const Project = () => {
   return (
-    <section className="mb-[80px] ml-20" id="Project">
+    <section className="mb-[80px] " id="Project">
       <h2 className="font-semibold text-[30px] text-blue-600 text-center mb-[20px]">
         <u>Projects</u>
       </h2>

@@ -1,10 +1,10 @@
 const Hero = () => {
   return (
     <section
-      className="md:flex sm:flex ml-9 md:flex-row sm:flex-col sm:items-left sm:justify-between md:justify-between md:items-center mt-[160px]  mb-90 ml-20  "
+      className="md:flex sm:flex ml-9 md:flex-row sm:flex-col sm:items-left sm:justify-between md:justify-between md:items-center mt-[160px]  mb-90    "
       id="Hero"
     >
-      <div className=" pl-15">
+      <div className=" pl-10">
         <h1 className="font-bold text-[40px] sm:Pl-950">
           Hi,<br></br>I'am <span className="text-blue-600">Prateek</span>
           <br></br>
