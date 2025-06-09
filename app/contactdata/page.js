@@ -1,7 +1,9 @@
 import Nav from "@/components/Nav";
-import UserTable from "@/components/UserTable";
+import UserTable from "@/components/ContactTable";
 
 const contactData = () => {
+  const userData = data;
+
   return (
     <>
       <Nav />

@@ -3,7 +3,7 @@ const TableRow = (props) => {
   return (
     <>
       <tr>
-        <td>{props.id}</td>
+        <td>i++</td>
         <td>{props.name}</td>
         <td>{props.username}</td>
         <td>{props.email}</td>
