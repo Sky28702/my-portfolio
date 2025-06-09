@@ -1,11 +1,22 @@
+"use client";
+import { useForm } from "react-hook-form";
+import { useState } from "react";
+
 const Contact = () => {
+  const { register, handleSubmit, watch } = useForm();
+  const [data, setData] = useState("");
+
   return (
     <section className="mb-[80px]  " id="Contact">
       <h2 className="font-semibold text-[30px] text-blue-600 text-center mb-[20px]">
         <u> Contact </u>
       </h2>
-      <form className="flex flex-col justify-between items-center md:flex md:flex-col md:justify-between md:items-center  ">
+      <form
+        onSubmit={handleSubmit((data) => setData(JSON.stringify(data)))}
+        className="flex flex-col justify-between items-center md:flex md:flex-col md:justify-between md:items-center  "
+      >
         <input
+          {...register("name")}
           type="text"
           name="name"
           id="name"
@@ -15,6 +26,7 @@ const Contact = () => {
         ></input>
 
         <input
+          {...register("email")}
           type="email"
           name="email"
           id="email"
@@ -24,6 +36,7 @@ const Contact = () => {
         ></input>
 
         <textarea
+          {...register("Contact Message: ")}
           className="text-sm h-36 w-60 mb-8 border border-solid border-slate-200 rounded-[4px] py-2 px-2"
           placeholder="Type your message..."
         ></textarea>

@@ -14,7 +14,7 @@ const Nav = () => {
           <h1 className="text-blue-600 font-bold text-xl"> Prateek </h1>
 
           <span
-            onClick={() => setOpen(true)}
+            onClick={() => setOpen(false)}
             className="text-xl font-bold text-sky-400 hover:pointer:cursor pr-4 "
           >
             {"  "}
@@ -63,9 +63,9 @@ const Nav = () => {
             Contact
           </a>
         </div>
-        <a className="md:hidden" onclick="myFunction()">
+        <span onClick={() => setOpen(true)} className="md:hidden">
           <i class="fa fa-bars"></i>
-        </a>
+        </span>
       </header>
     </>
   );
