@@ -24,32 +24,6 @@ const profile = () => {
 
         <form>
           <div className="flex flex-row items-center mb-6">
-            {/* start v username and password  */}
-            <div>
-              <label className="text-slate-500 leading-8">Username</label>
-              <br></br>
-              <input
-                type="text"
-                className=" border border-slate-300 h-10 rounded-[6px] w-118 pl-[10px]"
-                placeholder="jhondoe123"
-              ></input>
-            </div>
-            {/* username end ^ */}
-            {/* password start v */}
-            <div className="ml-6">
-              <label className="text-slate-500 leading-8">Password</label>
-              <br></br>
-              <input
-                type="Password"
-                className=" border border-slate-300 h-10 rounded-[6px] w-128 pl-[10px] "
-                placeholder=".........."
-              ></input>
-            </div>
-            {/* password ends  */}
-          </div>
-          {/* end username and password */}
-
-          <div className="flex flex-row items-center">
             {/* start v FirstName and LastName  */}
             <div>
               <label className="text-slate-500 leading-8">First Name</label>
@@ -58,6 +32,7 @@ const profile = () => {
                 type="text"
                 className=" border border-slate-300 h-10 rounded-[6px] w-118 pl-[10px]"
                 placeholder="Jhon"
+                required
               ></input>
             </div>
             {/* Firstname end ^ */}
@@ -74,6 +49,48 @@ const profile = () => {
             {/* Lastname ends  */}
           </div>
           {/* end v FirstName and LastName  */}
+
+          <div className="flex flex-row items-center mb-6">
+            {/* start v Phone and Email  */}
+            <div>
+              <label className="text-slate-500 leading-8">Phone Number</label>
+              <br></br>
+              <input
+                type="number"
+                className=" border border-slate-300 h-10 rounded-[6px] w-118 pl-[10px]"
+                placeholder="9834275403"
+                required
+              ></input>
+            </div>
+            {/* Phonenumber end ^ */}
+            {/* email start v */}
+            <div className="ml-6">
+              <label className="text-slate-500 leading-8">Email Address</label>
+              <br></br>
+              <input
+                type="email"
+                className=" border border-slate-300 h-10 rounded-[6px] w-128 pl-[10px] "
+                placeholder="example@email.com"
+              ></input>
+            </div>
+            {/* Email ends  */}
+          </div>
+          {/* end v email and phoenumber  */}
+
+          <div className="mb-6">
+            <label className="text-slate-500 leading-8">Address</label>
+            <br></br>
+            <input
+              type="text"
+              className=" border border-slate-300 h-10 rounded-[6px] w-252 pl-[10px]"
+              placeholder="A - 1002 Alpha Plus,Raiya Telephone Exchange"
+              required
+            ></input>
+          </div>
+
+          <button className="bg-blue-600 text-white py-2 px-4 rounded-[6px] text-[14px] hover:bg-blue-500 cursor-pointer">
+            Send
+          </button>
         </form>
       </section>
     </>
