@@ -1,13 +1,30 @@
 "use client";
+import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 import Nav from "@/components/Nav";
 const profiledit = () => {
-  const { register, handleSubmit } = useForm();
+  const { register, handleSubmit, setValue } = useForm();
+  const [selectedImage, setSelectedImage] = useState();
+
+  const handleImageChange = (event) => {
+    const file = event.target.files[0];
+    setSelectedImage(file);
+    setValue("image", file); // Update form value with the file
+  };
+
+  const onSubmit = (data) => {
+    console.log(data); // data will contain the image file
+    console.log(selectedImage); // Access the image file stored in state
+  };
 
   function submit(data) {
+    if (data.profilePic) {
+      data.profilePic = data.profilePic[0].name; // get only the file name
+    }
+
     const updatedData = [data];
 
-    localStorage.setItem("contactFormData", JSON.stringify(updatedData));
+    localStorage.setItem("profileFormData", JSON.stringify(updatedData));
     console.log("Form submitted and saved:", updatedData);
   }
 
@@ -29,7 +46,7 @@ const profiledit = () => {
             type="file"
             className="bg-blue-600 text-white text-[14px] px-4 py-2 rounded-[5px] hover:bg-blue-500 cursor-pointer mb-12"
             name="Upload"
-            {...register("profilepic")}
+            onChange={handleImageChange}
           ></input>
 
           <div className=" items-center ">
@@ -38,7 +55,7 @@ const profiledit = () => {
               <label className="text-slate-500 leading-8">First Name</label>
               <br></br>
               <input
-                {...register("firstname")}
+                {...register("firstName")}
                 type="text"
                 className=" border border-slate-300 h-10 rounded-[6px] w-90 pl-[10px] mb-4"
                 placeholder="Jhon"
@@ -51,7 +68,7 @@ const profiledit = () => {
               <label className="text-slate-500 leading-8">Last Name</label>
               <br></br>
               <input
-                {...register("lastname")}
+                {...register("lastName")}
                 type="Text"
                 className=" border border-slate-300 h-10 rounded-[6px] w-90 pl-[10px] mb-4 "
                 placeholder="Doe"
@@ -67,7 +84,7 @@ const profiledit = () => {
               <label className="text-slate-500 leading-8">Phone Number</label>
               <br></br>
               <input
-                {...register("number")}
+                {...register("Number")}
                 type="number"
                 className=" border border-slate-300 h-10 rounded-[6px] w-90 pl-[10px] mb-4"
                 placeholder="9834275403"
@@ -80,7 +97,7 @@ const profiledit = () => {
               <label className="text-slate-500 leading-8">Email Address</label>
               <br></br>
               <input
-                {...register("email")}
+                {...register("Email")}
                 type="email"
                 className=" border border-slate-300 h-10 rounded-[6px] w-90 pl-[10px] mb-4"
                 placeholder="example@email.com"
