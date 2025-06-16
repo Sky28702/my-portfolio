@@ -12,15 +12,9 @@ const profiledit = () => {
     setValue("image", file); // Update form value with the file
   };
 
-  const onSubmit = (data) => {
-    console.log(data); // data will contain the image file
-    console.log(selectedImage); // Access the image file stored in state
-  };
-
   function submit(data) {
-    if (data.profilePic) {
-      data.profilePic = data.profilePic[0].name; // get only the file name
-    }
+    console.log(data); // data will contain the image file
+    console.log(selectedImage);
 
     const updatedData = [data];
 
@@ -84,7 +78,7 @@ const profiledit = () => {
               <label className="text-slate-500 leading-8">Phone Number</label>
               <br></br>
               <input
-                {...register("Number")}
+                {...register("number")}
                 type="number"
                 className=" border border-slate-300 h-10 rounded-[6px] w-90 pl-[10px] mb-4"
                 placeholder="9834275403"
@@ -97,7 +91,7 @@ const profiledit = () => {
               <label className="text-slate-500 leading-8">Email Address</label>
               <br></br>
               <input
-                {...register("Email")}
+                {...register("email")}
                 type="email"
                 className=" border border-slate-300 h-10 rounded-[6px] w-90 pl-[10px] mb-4"
                 placeholder="example@email.com"
@@ -111,7 +105,7 @@ const profiledit = () => {
             <label className="text-slate-500 leading-8">Address</label>
             <br></br>
             <input
-              {...register("Address")}
+              {...register("address")}
               type="text"
               className=" border border-slate-300 h-10 rounded-[6px] w-90 pl-[10px] mb-4"
               placeholder="A - 1002 Alpha Plus"
