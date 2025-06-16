@@ -1,4 +1,5 @@
 "use client";
+import createProfile from "@/app/backend/actions/profile";
 import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 import Nav from "@/components/Nav";
@@ -12,14 +13,11 @@ const profiledit = () => {
     setValue("image", file); // Update form value with the file
   };
 
-  function submit(data) {
+  async function submit(data) {
     console.log(data); // data will contain the image file
     console.log(selectedImage);
 
-    const updatedData = [data];
-
-    localStorage.setItem("profileFormData", JSON.stringify(updatedData));
-    console.log("Form submitted and saved:", updatedData);
+    await createProfile(data);
   }
 
   return (

@@ -1,3 +1,4 @@
+"user server";
 import Profile from "../models/profile";
 import dbConnect from "@/app/backend/db/dbConnect";
 
