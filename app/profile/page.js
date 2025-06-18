@@ -76,7 +76,7 @@ const profiledit = () => {
               <label className="text-slate-500 leading-8">Phone Number</label>
               <br></br>
               <input
-                {...register("number")}
+                {...register("phoneNumber")}
                 type="number"
                 className=" border border-slate-300 h-10 rounded-[6px] w-90 pl-[10px] mb-4"
                 placeholder="9834275403"

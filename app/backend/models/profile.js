@@ -1,11 +1,12 @@
 import mongoose from "mongoose";
+import { unique } from "next/dist/build/utils";
 
 const profileSchema = new mongoose.Schema({
-  image: { type: String, required: false },
+  profilePicture: { type: String, required: false, unique: true },
   firstName: { type: String, required: true },
   lastName: { type: String, required: true },
   email: { type: String, required: true, lowercase: true },
-  phoneNumber: { type: Number, min: 10, max: 12 },
+  phoneNumber: { type: Number },
   address: { type: String, required: true },
 });
 
